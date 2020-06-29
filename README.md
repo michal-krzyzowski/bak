@@ -1,5 +1,5 @@
 # bak
-simple backup function for files and directories
+simple backup function for files and directories (Linux)
 
 How to:
 - save in .bashrc and source the file,
