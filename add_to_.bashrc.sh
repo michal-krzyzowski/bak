@@ -11,7 +11,7 @@ for FILE_SOURCE_INPUT in $@; do
                 for i in $(seq -w 1 99); do
                         FILE_PATH=$(dirname ${FILE_SOURCE_1_FIND})
                         FILE_SOURCE_NO_PATH=$(basename ${FILE_SOURCE_1_FIND})
-                        FILE_BAK_NO_PATH="${FILE_SOURCE_NO_PATH}.bak_$(date "+%F_%H-%M-%S")"
+                        FILE_BAK_NO_PATH="${FILE_SOURCE_NO_PATH}.bak_$(date "+%F")_${i}"
                         FILE_SOURCE_WITH_PATH="${FILE_PATH}/${FILE_SOURCE_NO_PATH}"
                         FILE_BAK_WITH_PATH="${FILE_PATH}/${FILE_BAK_NO_PATH}"
                         if [ ! -e ${FILE_BAK_WITH_PATH} ] && [ ${BAK_CREATED} -ne 1 ]; then
