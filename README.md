@@ -17,4 +17,4 @@ How to:
 - backups of backups are not created,
 - non-existing files are skipped,
 - current date and time are added to the filename,
-- bak filename is displayed upon successful backup.
+- bak filename or dirname is displayed upon successful backup.
