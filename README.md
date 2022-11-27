@@ -1,5 +1,5 @@
 # bak
-simple backup function for files and directories (Linux)
+Simple backup function for files and directories (Linux)
 
 How to:
 - save in ~/.bashrc and source the file,
@@ -7,7 +7,7 @@ How to:
 
 `bak filename`
 
-- works also recursively with directories,
+- works also recursively with directories
 
 `bak dirname`
 
@@ -17,4 +17,4 @@ How to:
 - backups of backups are not created,
 - non-existing files are skipped,
 - current date and time are added to the filename,
-- bak filename is displayed upon successful backup
+- bak filename is displayed upon successful backup.
