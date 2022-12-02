@@ -14,6 +14,7 @@ How to:
 - works with both absolute and relative paths,
 
 `bak /dirname`
+
 `bak ../dirname`
 
 - resolves symbolic links,
