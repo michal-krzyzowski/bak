@@ -21,5 +21,5 @@ How to:
 - works with wildcards, for instance, `bak *` or `bak filename*`
 - backups of backups ("\*.bak*\") are not created
 - non-existing files or directories are skipped
-- current date and time are added to the filename
+- **current date and time are added to the filename**
 - bak filename or dirname is displayed upon successful backup
