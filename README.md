@@ -11,8 +11,8 @@ Simple backup script for files and directories in Linux, making the backup creat
 
 **Syntax**
 
-- bak [FILENAME] [OPTIONS]
-
+- bak [FILENAME] [OPTIONAL_PARAMETERS]
+  
    `bak filename`
 
    `bak filename -c "optional comment"`
@@ -56,7 +56,7 @@ Simple backup script for files and directories in Linux, making the backup creat
 
    `filename.bak_[DATE_AND_TIME]_[OPTIONAL_COMMENT]`
 
-- if pwd is different than the location of the backup output, the path is also included
+- if the pwd is different than the location of the backup output, the path is also included
 
    `/path/filename.bak_[DATE_AND_TIME]`
 
