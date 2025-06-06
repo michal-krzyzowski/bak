@@ -2,6 +2,7 @@
 Simple backup script for files and directories in Linux, making the backup creation quicker than `cp -r [...]`
 
 
+
 **Setup**
 - save in **/bin/bak**
 - add execution rights
@@ -10,19 +11,21 @@ Simple backup script for files and directories in Linux, making the backup creat
 
 **Syntax**
 
+- bak [FILENAME] [OPTIONS]
+
    `bak filename`
 
    `bak filename -c "optional comment"`
+
+   `bak -c "optional comment" filename`
 
 
 
 **Features**
 
-- works recursively with directories
+- it works recursively with directories
 
    `bak dirname`
-
-   `bak dirname -c "optional comment"`
 
 - works with both absolute and relative paths
 
@@ -59,3 +62,6 @@ Simple backup script for files and directories in Linux, making the backup creat
 
    `/path/filename.bak_[DATE_AND_TIME]_[OPTIONAL_COMMENT]`
   
+
+
+
