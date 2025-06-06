@@ -1,5 +1,5 @@
 # bak
-Simple backup function for files and directories in Linux
+Simple backup script for files and directories in Linux
 
 How to:
 - save in /bin/bak and add execution rights
