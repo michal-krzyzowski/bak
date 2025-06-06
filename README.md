@@ -31,4 +31,4 @@ How to:
 - current date and time are added to the filename
 - backup filename or dirname, containing date and optionally the comment, is displayed upon successful backup
 `dirname.bak_[DATE]_[COMMENT]`
-- the goal just making the backup creation quicker, nothing more than `cp -r (...)`
+- the goal just making the backup creation quicker than `cp -r [...]`
