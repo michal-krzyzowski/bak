@@ -28,10 +28,10 @@ How to:
 - works with wildcards, for instance, `bak *` or `bak filename*`
 - backups of backups ("\*.bak*\") are not created
 - non-existing files or directories are skipped
-- current date and time are added to the filename
-- backup filename or dirname, containing date and optionally the comment, is displayed upon successful backup
+- current date and time are added to the filename, the comment is optional
+- backup filename is displayed upon successful backup
   
    `filename.bak_[DATE_AND_TIME]`
 
-   `filename.bak_[DATE_AND_TIME]_[COMMENT]`
+   `filename.bak_[DATE_AND_TIME]_[OPTIONAL_COMMENT]`
   
