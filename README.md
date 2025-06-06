@@ -23,4 +23,4 @@ How to:
 - backups of backups ("\*.bak*\") are not created
 - non-existing files or directories are skipped
 - current date and time are added to the filename
-- bak filename or dirname is displayed upon successful backup
+- backup filename or dirname is displayed upon successful backup
