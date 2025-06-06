@@ -33,7 +33,7 @@ How to:
   
 - backups of backups ("\*.bak*\") are not created
 - non-existing files or directories are skipped
-- current date and time are added to the backup filename, the comment optionally too
+- current date and time are added to the backup filename, the comment optionally as well
 - backup filename is displayed upon completion
   
    `filename.bak_[DATE_AND_TIME]`
