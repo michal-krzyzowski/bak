@@ -2,7 +2,7 @@
 Simple backup function for files and directories in Linux
 
 How to:
-- save in ~/.bashrc and source the file
+- save in /bin/bak and add execution rights
 - syntax
 
 `bak filename`
