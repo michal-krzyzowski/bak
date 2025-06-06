@@ -1,14 +1,22 @@
 # bak
 Simple backup script for files and directories in Linux, making the backup creation quicker than `cp -r [...]`
 
-How to:
+
+**Setup**
 - save in **/bin/bak**
 - add execution rights
-- syntax
+
+
+
+**Syntax**
 
    `bak filename`
 
    `bak filename -c "optional comment"`
+
+
+
+**Features**
 
 - works recursively with directories
 
@@ -33,10 +41,21 @@ How to:
   
 - backups of backups ("\*.bak*\") are not created
 - non-existing files or directories are skipped
+
+
+
+**Output**
+
 - current date and time are added to the backup filename, the comment optionally as well
 - backup filename is displayed upon completion
   
    `filename.bak_[DATE_AND_TIME]`
 
    `filename.bak_[DATE_AND_TIME]_[OPTIONAL_COMMENT]`
+
+- if pwd is different than the location of the backup output, the path is also included
+
+   `/path/filename.bak_[DATE_AND_TIME]`
+
+   `/path/filename.bak_[DATE_AND_TIME]_[OPTIONAL_COMMENT]`
   
