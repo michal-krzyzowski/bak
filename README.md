@@ -25,7 +25,12 @@ How to:
    `bak .`
 
 - resolves symbolic links
-- works with wildcards, for instance, `bak *` or `bak filename*`
+- works with wildcards
+  
+  `bak *`
+  
+  `bak filename*`
+  
 - backups of backups ("\*.bak*\") are not created
 - non-existing files or directories are skipped
 - current date and time are added to the filename, the comment is optional
