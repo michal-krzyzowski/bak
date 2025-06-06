@@ -10,7 +10,7 @@ How to:
 
    `bak filename -c "optional comment"`
 
-- works recursively with directories as well
+- works recursively with directories
 
    `bak dirname`
 
@@ -33,8 +33,8 @@ How to:
   
 - backups of backups ("\*.bak*\") are not created
 - non-existing files or directories are skipped
-- current date and time are added to the filename, the comment is optional
-- backup filename is displayed upon successful backup
+- current date and time are added to the backup filename, the comment optionally too
+- backup filename is displayed upon completion
   
    `filename.bak_[DATE_AND_TIME]`
 
