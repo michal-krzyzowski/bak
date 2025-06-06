@@ -8,6 +8,8 @@ How to:
 
 `bak filename`
 
+`bak filename -c "comment"`
+
 - works recursively with directories as well
 
 `bak dirname`
