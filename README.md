@@ -2,7 +2,8 @@
 Simple backup script for files and directories in Linux
 
 How to:
-- save in /bin/bak and add execution rights
+- save in **/bin/bak**
+- add execution rights
 - syntax
 
 `bak filename`
