@@ -16,7 +16,11 @@ How to:
 
 `bak /dirname`
 
+`bak dirname`
+
 `bak ../dirname`
+
+`bak .`
 
 - resolves symbolic links
 - works with wildcards, for instance, `bak *` or `bak filename*`
