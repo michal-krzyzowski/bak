@@ -30,5 +30,6 @@ How to:
 - non-existing files or directories are skipped
 - current date and time are added to the filename
 - backup filename or dirname, containing date and optionally the comment, is displayed upon successful backup
-`dirname.bak_[DATE]_[COMMENT]`
+`filename.bak_[DATE_AND_TIME]`
+`filename.bak_[DATE_AND_TIME]_[COMMENT]`
 - the goal just making the backup creation quicker than `cp -r [...]`
