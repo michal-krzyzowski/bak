@@ -18,8 +18,6 @@ How to:
 
 `bak dirname`
 
-`bak ../dirname`
-
 `bak .`
 
 - resolves symbolic links
