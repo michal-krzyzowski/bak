@@ -6,23 +6,23 @@ How to:
 - add execution rights
 - syntax
 
-`bak filename`
+   `bak filename`
 
-`bak filename -c "optional comment"`
+   `bak filename -c "optional comment"`
 
 - works recursively with directories as well
 
-`bak dirname`
+   `bak dirname`
 
-`bak dirname -c "optional comment"`
+   `bak dirname -c "optional comment"`
 
 - works with both absolute and relative paths
 
-`bak /dirname`
+   `bak /dirname`
 
-`bak ../dirname`
+   `bak ../dirname`
 
-`bak .`
+   `bak .`
 
 - resolves symbolic links
 - works with wildcards, for instance, `bak *` or `bak filename*`
@@ -31,6 +31,7 @@ How to:
 - current date and time are added to the filename
 - backup filename or dirname, containing date and optionally the comment, is displayed upon successful backup
   
-`filename.bak_[DATE_AND_TIME]`
+   `filename.bak_[DATE_AND_TIME]`
 
-`filename.bak_[DATE_AND_TIME]_[COMMENT]`
+   `filename.bak_[DATE_AND_TIME]_[COMMENT]`
+  
