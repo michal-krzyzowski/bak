@@ -8,11 +8,13 @@ How to:
 
 `bak filename`
 
-`bak filename -c "comment"`
+`bak filename -c "optional comment"`
 
 - works recursively with directories as well
 
 `bak dirname`
+
+`bak dirname -c "optional comment"`
 
 - works with both absolute and relative paths
 
