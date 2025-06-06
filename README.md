@@ -16,7 +16,7 @@ How to:
 
 `bak /dirname`
 
-`bak dirname`
+`bak ../dirname`
 
 `bak .`
 
