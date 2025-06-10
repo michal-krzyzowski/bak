@@ -42,7 +42,7 @@ Simple backup script for files and directories in Linux, making the backup creat
   
   `bak filename*`
   
-- backups of backups ("\*.bak*\") are not created
+- backups of backups ("\*.bak*\") are omitted
 - non-existing files or directories are skipped
 
 
