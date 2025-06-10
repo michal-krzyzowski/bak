@@ -1,6 +1,6 @@
 # bak
-Simple backup script for files and directories in Linux, just making the backup creation quicker than `cp -r [...]`. The only added value is making the whole process quicker.
-
+Simple backup script for files and directories in Linux, just making the backup creation quicker than `cp -r [...]`.
+The only added value is making the whole process quicker.
 
 
 **Setup**
