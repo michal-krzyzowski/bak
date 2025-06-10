@@ -27,7 +27,7 @@ Simple backup script for files and directories in Linux, making the backup creat
 
    `bak dirname`
 
-- works with both absolute and relative paths
+- works with absolute and relative paths
 
    `bak /dirname`
 
