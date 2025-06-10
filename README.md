@@ -49,7 +49,7 @@ Simple backup script for files and directories in Linux, just making the backup 
 
 **Output**
 
-- current date and time are added to the backup filename, the comment optionally as well
+- current date and time are added to the backup filename, optionally, the comment as well
 - backup filename is displayed upon completion
   
    `filename.bak_[DATE_AND_TIME]`
